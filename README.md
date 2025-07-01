@@ -21,7 +21,7 @@ VBay is a mobile-first platform designed for students to buy, sell, and seek ite
 - **Effective Lines Of Code Written By Me:** 12,220 (as of May 11, 2025)
 - **Launch Date:** 18 March, 2025
 - **Artificial Users:** 11
-- **Net Downloads:** 900+ (as of May 1, 2025)
+- **Net Downloads:** 1K+ (as of July 1, 2025)
 
 ## Features
 
