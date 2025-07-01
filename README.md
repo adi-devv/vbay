@@ -5,9 +5,7 @@
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)](https://flutter.dev/)
 [![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge)](https://dart.dev/)
 [![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge)](https://firebase.google.com/)
-[![Provider](https://img.shields.io/badge/Provider-0277BD?logo=provider&logoColor=white&style=for-the-badge)](https://pub.dev/packages/provider)
 [![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=for-the-badge)](https://www.android.com/)
-[![iOS](https://img.shields.io/badge/iOS-000000?logo=apple&logoColor=white&style=for-the-badge)](https://www.apple.com/ios/)
 
 VBay is a mobile-first platform designed for students to buy, sell, and seek items and services within their campus community. It focuses on facilitating direct connections between students, eliminating the need to navigate broader marketplaces. Currently, it's live at VIT Bhopal and VIT Vellore, with plans for expansion.
 
