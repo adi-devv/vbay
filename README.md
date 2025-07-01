@@ -1,11 +1,26 @@
 # VBay
 
+## Tech Stack Used
+
+[![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)](https://flutter.dev/)
+[![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge)](https://dart.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?logo=firebase&logoColor=black&style=for-the-badge)](https://firebase.google.com/)
+[![Provider](https://img.shields.io/badge/Provider-0277BD?logo=provider&logoColor=white&style=for-the-badge)](https://pub.dev/packages/provider)
+[![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white&style=for-the-badge)](https://www.android.com/)
+[![iOS](https://img.shields.io/badge/iOS-000000?logo=apple&logoColor=white&style=for-the-badge)](https://www.apple.com/ios/)
+
 VBay is a mobile-first platform designed for students to buy, sell, and seek items and services within their campus community. It focuses on facilitating direct connections between students, eliminating the need to navigate broader marketplaces. Currently, it's live at VIT Bhopal and VIT Vellore, with plans for expansion.
+
+## Download & Community Links
+
+- **Download on Play Store:** [VBay on Google Play](https://play.google.com/store/apps/details?id=com.adidevv.vbay)
+- **LinkedIn:** [VBay LinkedIn Page](https://www.linkedin.com/company/vbayapp/)
+- **WhatsApp Community:** [Join VBay WhatsApp Community](https://chat.whatsapp.com/HN5XgJZK1Xf6sAQdTyBBKC)
 
 ## Project Stats
 
 - **Project Started:** 23 Oct 2024
-- **Effective Lines Of Code Written By Me:** 9,920 (as of Mar 16, 2025)
+- **Effective Lines Of Code Written By Me:** 12,220 (as of May 11, 2025)
 - **Launch Date:** 18 March, 2025
 - **Artificial Users:** 11
 - **Net Downloads:** 900+ (as of May 1, 2025)
@@ -19,24 +34,7 @@ VBay is a mobile-first platform designed for students to buy, sell, and seek ite
 - **Targeted Audience:** Specifically designed for the needs and preferences of students within a college campus.
 - **Growth:** Actively expanding to more campuses.
 
-## Getting Started
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/vbay.git
-   cd vbay
-   ```
-2. **Install dependencies:**
-   ```bash
-   flutter pub get
-   ```
-3. **Run the app:**
-   ```bash
-   flutter run
-   ```
-
-> **Note:** Make sure you have Flutter installed. For more information, see the [Flutter documentation](https://docs.flutter.dev/).
-
 ## Contact
 
-For questions, suggestions, or to request your campus to be added, please contact the VBay team at [your-email@example.com].
+For questions, suggestions, or to request your campus to be added, please contact the VBay team at [help.vbay@gmail.com].
+
