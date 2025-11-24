@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.adidevv.vbay",
+    "sha256_cert_fingerprints": [
+      "65D490258D41C6414100568C876303A4087DBE04DCBFBE5A5904BC1FA8F67292"
+    ]
+  }
+}]
