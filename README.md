@@ -1,5 +1,5 @@
 # VBay
-
+SOON ON IOS
 ## Tech Stack Used
 
 [![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)](https://flutter.dev/)
@@ -35,4 +35,5 @@ VBay is a mobile-first platform designed for students to buy, sell, and seek ite
 ## Contact
 
 For questions, suggestions, or to request your campus to be added, please contact the VBay team at [help.vbay@gmail.com].
+
 
