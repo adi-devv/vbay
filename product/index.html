@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opening VBay…</title>
+
+  <script>
+    function isIOS() {
+      return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
+
+    function isAndroid() {
+      return /Android/i.test(navigator.userAgent);
+    }
+
+    // Try to open app
+    window.location.href = "vbay://open";
+
+    // Fallback handler
+    setTimeout(function () {
+      if (isAndroid()) {
+        // ANDROID FALLBACK → Play Store
+        window.location.href =
+          "https://play.google.com/store/apps/details?id=com.adidevv.vbay";
+      } else if (isIOS()) {
+        // IOS FALLBACK → App Store
+        window.location.href =
+          "https://apps.apple.com/app/YOUR-APP-ID-HERE"; // <-- replace
+      } else {
+        // OTHER DEVICES → your website
+        window.location.href = "https://vbay.store";
+      }
+    }, 1200);
+  </script>
+</head>
+<body>
+  <p>Opening VBay…</p>
+</body>
+</html>
