@@ -3,33 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Opening VBay…</title>
-
+  <title>Redirecting to App Store / Play Store…</title>
   <script>
-    // Get product ID from URL query param
-    const urlParams = new URLSearchParams(window.location.search);
-    const productID = urlParams.get('product') || "";
-
     const ua = navigator.userAgent;
 
-    // ANDROID → use intent:// for automatic Play Store fallback
+    // Android → Play Store
     if (/Android/i.test(ua)) {
-      window.location = `intent://product/${productID}#Intent;scheme=vbay;package=com.adidevv.vbay;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.adidevv.vbay;end`;
+      window.location.href = "https://play.google.com/store/apps/details?id=com.adidevv.vbay";
     } 
-    // iOS → scheme + timeout fallback
+    // iOS → App Store
     else if (/iPhone|iPad|iPod/i.test(ua)) {
-      window.location = `vbay://product/${productID}`;
-      setTimeout(() => {
-        window.location = "https://apps.apple.com/app/YOUR-APP-ID";
-      }, 1200);
+      window.location.href = "https://apps.apple.com/app/YOUR-APP-ID";
     } 
-    // Desktop fallback
+    // Desktop → website fallback
     else {
-      window.location = `https://vbay.store`;
+      window.location.href = "https://vbay.store";
     }
   </script>
 </head>
 <body>
-  <p>Opening VBay…</p>
+  <p>Redirecting…</p>
 </body>
 </html>
