@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opening VBay…</title>
+
+  <script>
+    const ua = navigator.userAgent;
+
+    // ANDROID: use intent (works 100%)
+    if (/Android/i.test(ua)) {
+      window.location =
+        "intent://open#Intent;scheme=vbay;package=com.adidevv.vbay;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.adidevv.vbay;end";
+    }
+
+    // iOS: scheme + timeout fallback
+    if (/iPhone|iPad|iPod/i.test(ua)) {
+      window.location = "vbay://open";
+      setTimeout(() => {
+        window.location = "https://apps.apple.com/app/YOUR-APP-ID";
+      }, 1200);
+    }
+  </script>
+</head>
+<body>
+  <p>Opening VBay…</p>
+</body>
+</html>
