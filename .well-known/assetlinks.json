@@ -1,10 +1,14 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.adidevv.vbay",
-    "sha256_cert_fingerprints": [
-      "65D490258D41C6414100568C876303A4087DBE04DCBFBE5A5904BC1FA8F67292"
-    ]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.adidevv.vbay",
+      "sha256_cert_fingerprints": [
+        "E6:85:2E:E5:C3:B4:4B:69:83:61:93:C2:D3:1C:FC:DB:FB:85:E5:A2:85:DA:93:7C:AC:C7:AB:A0:EF:7C:4A:D9",
+        "E0:BC:2E:29:22:47:EE:7D:0D:C8:D9:6B:34:1B:13:07:59:38:B8:17:5A:87:72:AC:0D:C9:B4:04:DE:AB:8E:68",
+        "33:D5:F1:2D:43:BD:71:5C:B9:EA:29:BE:3E:61:CE:11:9E:42:40:51:F2:12:BE:46:E6:D5:A9:C1:30:5D:32:EF"
+      ]
+    }
   }
-}]
+]
