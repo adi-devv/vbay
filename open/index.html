@@ -6,25 +6,26 @@
   <title>Opening VBay…</title>
 
   <script>
+    // Get product ID from URL query param
+    const urlParams = new URLSearchParams(window.location.search);
+    const productID = urlParams.get('product') || "";
+
     const ua = navigator.userAgent;
 
-    // ANDROID → 100% reliable intent link
+    // ANDROID → use intent:// for automatic Play Store fallback
     if (/Android/i.test(ua)) {
-      window.location =
-        "intent://open#Intent;scheme=vbay;package=com.adidevv.vbay;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.adidevv.vbay;end";
-    }
-
-    // iOS → try deep link → then App Store
+      window.location = `intent://product/${productID}#Intent;scheme=vbay;package=com.adidevv.vbay;S.browser_fallback_url=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dcom.adidevv.vbay;end`;
+    } 
+    // iOS → scheme + timeout fallback
     else if (/iPhone|iPad|iPod/i.test(ua)) {
-      window.location = "vbay://open";
+      window.location = `vbay://product/${productID}`;
       setTimeout(() => {
         window.location = "https://apps.apple.com/app/YOUR-APP-ID";
       }, 1200);
-    }
-
+    } 
     // Desktop fallback
     else {
-      window.location = "https://vbay.store";
+      window.location = `https://vbay.store`;
     }
   </script>
 </head>
