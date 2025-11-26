@@ -15,7 +15,9 @@
     }
 
     // Try to open app
-    window.location.href = "vbay://open";
+    setTimeout(() => {
+        window.location.href = "vbay://open";
+      }, 100); // slight delay → makes browsers allow redirect
 
     // Fallback handler
     setTimeout(function () {
